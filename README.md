@@ -149,5 +149,7 @@ beautifulsoup4    # Parses HTML embedded inside Atom feed content
 
 ## Test Results
 
+The system was deployed on [Railway](https://railway.app) as a Docker container and ran successfully in production.
+
 <img width="906" height="402" alt="image" src="https://github.com/user-attachments/assets/8b8a22ff-418b-4766-a24c-f2b7db5277c1" />
 
