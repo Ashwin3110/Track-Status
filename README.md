@@ -87,9 +87,9 @@ Scheduler._poll_once("OpenAI")
 
 | Condition | Action |
 |---|---|
-| `incident_id` not found in state | 🚨 **NEW** — create event, notify, upsert to state |
-| `incident_id` exists but `updated_at` changed | 🔄 **UPDATE** — create event with old + new, notify, upsert |
-| `incident_id` exists and `updated_at` identical | ⏭ **SKIP** — no event, silent poll |
+| `incident_id` not found in state |  **NEW** — create event, notify, upsert to state |
+| `incident_id` exists but `updated_at` changed | **UPDATE** — create event with old + new, notify, upsert |
+| `incident_id` exists and `updated_at` identical | **SKIP** — no event, silent poll |
 
 ### Async Concurrency
 
