@@ -1,0 +1,5 @@
+feedparser
+aiohttp
+aiofiles
+pyyaml
+beautifulsoup4

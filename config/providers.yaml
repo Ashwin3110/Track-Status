@@ -1,0 +1,20 @@
+providers:
+  - name: "OpenAI"
+    feed_url: "https://status.openai.com/history.atom"
+    feed_type: "atom"
+    poll_interval_seconds: 60
+
+  # - name: "GitHub"
+  #   feed_url: "https://www.githubstatus.com/history.atom"
+  #   feed_type: "atom"
+  #   poll_interval_seconds: 60
+
+  # - name: "Cloudflare"
+  #   feed_url: "https://www.cloudflarestatus.com/history.atom"
+  #   feed_type: "atom"
+  #   poll_interval_seconds: 60
+
+  # - name: "Stripe"
+  #   feed_url: "https://www.stripestatus.com/history.atom"
+  #   feed_type: "atom"
+  #   poll_interval_seconds: 60

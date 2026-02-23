@@ -1,0 +1,11 @@
+services:
+  status-tracker:
+    build: .
+    container_name: status-tracker
+    restart: unless-stopped
+    volumes:
+      # Mount state.json so it persists on your host machine
+      # even if the container is stopped or rebuilt
+      - ./state.json:/app/state.json
+    environment:
+      - PYTHONUNBUFFERED=1
