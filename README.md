@@ -146,3 +146,8 @@ aiofiles          # Async file I/O for non-blocking state persistence
 pyyaml            # Reads providers.yaml config file
 beautifulsoup4    # Parses HTML embedded inside Atom feed content
 ```
+
+## Test Results
+
+<img width="906" height="402" alt="image" src="https://github.com/user-attachments/assets/8b8a22ff-418b-4766-a24c-f2b7db5277c1" />
+
